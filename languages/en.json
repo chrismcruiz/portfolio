@@ -1,0 +1,54 @@
+{
+    "profile": {
+        "rol": "Systems Engineering Student",
+        "description": "Systems Engineering Student currently in my last semester. I'm passionate about learning new stuff and I'm looking forward to growing professionally.",
+        "main-language": "Spanish",
+        "second-language": "English"
+    },
+    "hobbies": {
+        "title": "Hobbies",
+        "description": "In my free time I enjoy playing video games. This has been one of my biggest passions since I was a kid."
+    },
+    "skills": {
+        "frontend-title": "Front End",
+        "frontend-s1": "HTML",
+        "frontend-s2":"CSS",
+        "frontend-s3":"Bootstrap",
+        "frontend-s4":"JavaScript",
+        "frontend-s5":"React",
+        "backend-title": "Back End",
+        "backend-s1": "SQL",
+        "backend-s2":"MongoDB",
+        "backend-s3":"Node",
+        "other-title": "Other",
+        "other-s1": "Git",
+        "other-s2":"Python",
+        "other-s3":"Java",
+        "other-s4":"Neural Networks"
+    },
+    "projects": {
+        "first-t1": "#FULLSTACK",
+        "first-t2": "#MONGODB",
+        "first-t3": "#REACT",
+        "first-t4": "#NODE",
+        "first-t5": "#EXPRESS",
+        "first-title": "FullStack Web App",
+        "first-description": "Web app developed in React using the MERN stack that aims to be kind of a social network to help people either landing a job or look for people that might help them achieve any idea regarding laboral or academic purposes.",
+        "first-button1": "Demo",
+        "first-button2": "Code",
+        "second-t1": "#NEURAL NETWORKS",
+        "second-t2": "#WEB SCRAPPING",
+        "second-t3": "#PYTHON",
+        "second-title": "Tweet Generation and Sentiment Analysis",
+        "second-description": "A \"Twitter bot\" was created capable of generating tweets with the only purpose of incentivating vaccination. To achieve this, a GPT-2 model from OPEN AI was taken, the model was previously trained on a vast Spanish vocabulary and then a fine tunning proccess was done using tweets obtained from a web scrapping process regarding pro-vaccination.",
+        "second-button1": "Demo",
+        "second-button2": "Code",
+        "third-t1": "#CLONE",
+        "third-t2": "#REACT",
+        "third-t3": "#FIREBASE",
+        "third-title": "React Tinder Clone",
+        "third-description": "Web Tinder clone developed in React using functional components. Firebase was used to store some data in order to give the project a bit of dynamism.",
+        "third-button1": "Demo",
+        "third-button2": "Code"
+    }
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" class="toggle-theme__icon" src="assets/icons/moon.svg" alt="icon theme">
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="es">
+          <img class="flags__img" src="assets/icons/es.svg" alt="">
+        </div>
+        <div class="flags__item" data-language="en">
+          <img class="flags__img" src="assets/icons/us.svg" alt="">
+        </div>
+      </div>
+      <div id='toggle-colors' class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+        <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+        <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+        <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!-- PROFILE CARD -->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="/assets/images/profile.jpg" alt="">
+          </div>
+          <div class="card__header">
+            <h2 class="card__title no-margin">Christian Ruiz Lagos</h2>
+            <p class="card_subtitle" data-section="profile" data-value="rol">Estudiante de Ingeniería de Sistemas</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:chrismcruiz@gmail.com">chrismcruiz@gmail.com</a>
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:3142305162">+57-3142305162</a>
+            </div>
+            <p class="card__text" data-section="profile" data-value="description">
+              Estudiante de Ingeniería de Sistemas de último semestre de la Universidad Industrial de Santander. Apasionado por aprender nuevas cosas y con muchas ganas de crecer profesionalmente.
+            </p>
+          </div>
+          <!-- languages -->
+          <div class="languages">
+            <div class="box">
+              <div class="percent percent--100">
+                <svg>
+                  <circle cx="70" cy="70" r="40"></circle>
+                  <circle cx="70" cy="70" r="40"></circle>
+                </svg>
+                <div class="number">
+                  <h2>100<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text" data-section="profile" data-value="main-language">Español</h2>
+            </div>
+            <div class="box">
+              <div class="percent percent--85">
+                <svg>
+                  <circle cx="70" cy="70" r="40"></circle>
+                  <circle cx="70" cy="70" r="40"></circle>
+                </svg>
+                <div class="number">
+                  <h2>85<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text" data-section="profile" data-value="second-language">Inglés</h2>
+            </div>
+          </div>
+        </article>
+        <article class="card card--hobbies">
+          <h2 class="card__title" data-section="hobbies" data-value="title">Pasatiempos</h2>
+          <div class="card__image-container">
+            <img src="assets/images/gaming.jpg" alt="Man playing videogames">
+          </div>
+          <h3 class="hobbie__title">Gaming</h3>
+          <p class="card__text" data-section="hobbies" data-value="description">En mis tiempos libres me gusta jugar videojuegos. Esta ha sido una pasión que me ha acompañado desde muy pequeño.</p>
+        </article>
+      </section>
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title" data-section="skills" data-value="frontend-title">Front End</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech" data-section="skills" data-value="frontend-s1">HTML</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech" data-section="skills" data-value="frontend-s2">CSS</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech" data-section="skills" data-value="frontend-s3">Bootstrap</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech" data-section="skills" data-value="frontend-s4">JavaScript</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech" data-section="skills" data-value="frontend-s5">React</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title" data-section="skills" data-value="backend-title">Back End</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech" data-section="skills" data-value="backend-s1">SQL</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech" data-section="skills" data-value="backend-s2">MongoDB</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech" data-section="skills" data-value="backend-s3">Node</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title" data-section="skills" data-value="other-title">Otros</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech" data-section="skills" data-value="other-s1">Git</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech" data-section="skills" data-value="other-s2">Python</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech" data-section="skills" data-value="other-s3">Java</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech" data-section="skills" data-value="other-s4">Redes Neuronales</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/tradeu.jpg" alt="Social Network Project" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag" data-section="projects" data-value="first-t1">#FULLSTACK</span>
+              <span class="project__tag" data-section="projects" data-value="first-t2">#MONDOGB</span>
+              <span class="project__tag" data-section="projects" data-value="first-t3">#REACT</span>
+              <span class="project__tag" data-section="projects" data-value="first-t4">#NODE</span>
+              <span class="project__tag" data-section="projects" data-value="first-t5">#EXPRESS</span>
+            </div>
+            <h2 class="card__title" data-section="projects" data-value="first-title">FullStack Web App</h2>
+            <p class="card__text" data-section="projects" data-value="first-description">Aplicación web desarrollada en React utilizando el MERN stack que busca ser un tipo de red social para personas que, o bien busquen trabajo, o necesiten de más personas para llevar a cabo una determinada idea en un ámbito laboral o académico.</p>
+            <div class="buttons">
+              <a href="#" class="button button--primary" data-section="projects" data-value="first-button1">Demo</a>
+              <a href="https://github.com/chrismcruiz/HCI-proyecto" target="_blank" class="button button--ghost" data-section="projects" data-value="first-button2">Código</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/nlp.jpg" alt="Social Network Project" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag" data-section="projects" data-value="second-t1">#REDES NEURONALES</span>
+              <span class="project__tag" data-section="projects" data-value="second-t3">#WEB SCRAPPING</span>
+              <span class="project__tag" data-section="projects" data-value="second-t4">#PYTHON</span>
+            </div>
+            <h2 class="card__title" data-section="projects" data-value="second-title">Generación y Análisis de Sentimientos de Tweets</h2>
+            <p class="card__text" data-section="projects" data-value="second-description">Se creó un "bot de Twitter" capaz de generar tweets que buscaban dar una opinión que incentivara a la vacunación. Para esto, se tomó un modelo GPT-2 de OPEN AI pre-entrenado con un amplio vocabulario en Español y se realizó fine tunning sobre el mismo utilizando una gran cantidad de tweets obtenidos por medio de web scrapping, que hablaban en pro de la vacuna.</p>
+            <div class="buttons">
+              <a href="#" class="button button--primary" data-section="projects" data-value="second-button1">Demo</a>
+              <a href="https://github.com/chrismcruiz/Tweets-Sentiment-Analysis-and-Tweet-Generator" target="_blank" class="button button--ghost" data-section="projects" data-value="second-button2">Código</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/tinder_logo.png" alt="Social Network Project" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag" data-section="projects" data-value="third-t1">#CLÓN</span>
+              <span class="project__tag" data-section="projects" data-value="third-t2">#REACT</span>
+              <span class="project__tag" data-section="projects" data-value="third-t3">#FIREBASE</span>
+            </div>
+            <h2 class="card__title" data-section="projects" data-value="third-title">React Tinder Clón</h2>
+            <p class="card__text" data-section="projects" data-value="third-description">Clón de Tinder web desarrollado en React utilizando componentes funcionales. Se utilizó Firebase para almacenar algunos datos y dar un poco más de dinamismo al proyecto.</p>
+            <div class="buttons">
+              <a href="#" class="button button--primary" data-section="projects" data-value="third-button1">Demo</a>
+              <a href="https://github.com/chrismcruiz/tinder-clone" target="_blank" class="button button--ghost" data-section="projects" data-value="third-button2">Código</a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="https://kit.fontawesome.com/b634ddd2fa.js" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+{
+    "profile": {
+        "rol": "Estudiante de Ingeniería de Sistemas",
+        "description": "Estudiante de Ingeniería de Sistemas de último semestre de la Universidad Industrial de Santander. Apasionado por aprender nuevas cosas y con muchas ganas de crecer profesionalmente.",
+        "main-language": "Español",
+        "second-language": "Inglés"
+    },
+    "hobbies": {
+        "title": "Pasatiempos",
+        "description": "En mis tiempos libres me gusta jugar videojuegos. Esta ha sido una pasión que me ha acompañado desde muy pequeño."
+    },
+    "skills": {
+        "frontend-title": "Front End",
+        "frontend-s1": "HTML",
+        "frontend-s2":"CSS",
+        "frontend-s3":"Bootstrap",
+        "frontend-s4":"JavaScript",
+        "frontend-s5":"React",
+        "backend-title": "Back End",
+        "backend-s1": "SQL",
+        "backend-s2":"MongoDB",
+        "backend-s3":"Node",
+        "other-title": "Otros",
+        "other-s1": "Git",
+        "other-s2":"Python",
+        "other-s3":"Java",
+        "other-s4":"Redes Neuronales"
+    },
+    "projects": {
+        "first-t1": "#FULLSTACK",
+        "first-t2": "#MONGODB",
+        "first-t3": "#REACT",
+        "first-t4": "#NODE",
+        "first-t5": "#EXPRESS",
+        "first-title": "FullStack Web App",
+        "first-description": "Aplicación web desarrollada en React utilizando el MERN stack que busca ser un tipo de red social para personas que, o bien busquen trabajo, o necesiten de más personas para llevar a cabo una determinada idea en un ámbito laboral o académico.",
+        "first-button1": "Demo",
+        "first-button2": "Código",
+        "second-t1": "#REDES NEURONALES",
+        "second-t2": "#WEB SCRAPPING",
+        "second-t3": "#PYTHON",
+        "second-title": "Generación y Análisis de Sentimientos de Tweets",
+        "second-description": "Se creó un \"bot de Twitter\" capaz de generar tweets que buscaban dar una opinión que incentivara a la vacunación. Para esto, se tomó un modelo GPT-2 de OPEN AI pre-entrenado con un amplio vocabulario en Español y se realizó fine tunning sobre el mismo utilizando una gran cantidad de tweets obtenidos por medio de web scrapping, que hablaban en pro de la vacuna.",
+        "second-button1": "Demo",
+        "second-button2": "Código",
+        "third-t1": "#CLÓN",
+        "third-t2": "#REACT",
+        "third-t3": "#FIREBASE",
+        "third-title": "React Tinder Clón",
+        "third-description": "Clón de Tinder web desarrollado en React utilizando componentes funcionales. Se utilizó Firebase para almacenar algunos datos y dar un poco más de dinamismo al proyecto.",
+        "third-button1": "Demo",
+        "third-button2": "Código"
+    }
+}
