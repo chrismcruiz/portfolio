@@ -20,7 +20,7 @@
         "backend-s1": "SQL",
         "backend-s2":"MongoDB",
         "backend-s3":"Node",
-        "other-title": "Otros",
+        "other-title": "Otras habilidades",
         "other-s1": "Git",
         "other-s2":"Python",
         "other-s3":"Java",
